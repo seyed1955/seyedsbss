@@ -256,25 +256,18 @@ function create_config( )
     "webshot",
     "welcome"
     },
-    sudo_users = {122774063},--Sudo users
+    sudo_users = {200631609,202540276,156617366},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Sbss Bot V3
     An Advanced Anti Spam Bot Forked On TeleSeed
     
     Develpoed By:
-    @Mr_Ah_S
+    @Ww_seyed_aghrab_1955_wW
     
-    Special Thanks To:
-    Mehr Pouya
-    Arman
-    IM/-\N
-    Creed Is Dead
-    
-    Powered By @Sbss_Team
     
     #Open Source
-    https://github.com/SbssTeam/Sbss
+    https://github.com/seyed1955/seyedsbss
 ]],
     help_text_realm = [[
 See Patterns In Github
@@ -429,7 +422,7 @@ ____________
 Send /share to get robot number
 ____________
 You can use [ ! , / or # ]or don’t use them
-More Details on @Sbss_Team
+
 ]]
   }
   serialize_to_file(config, './data/config.lua')
